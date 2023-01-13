@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Врапер*/
+.wraper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Скрытые элементы*/
+.hidden-elements {
+    display: none;
+}
+
+.points-at-li {
+    list-style: none;
+}
+
+/*Врапер на шапку*/
+.header-wrapper {
+    max-width: 1345px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Шапка*/
+.header {
+    display: flex;
+    position: relative;
+    z-index: 100;
+    background-color: #bbbbbb;
+}
+
+/*Лого*/
+.logo {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/*Список в навигации*/
+.ul-in-nav {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/*Элементы в навигации*/
+.li-in-nav {
+    margin-left: 45px;
+    list-style: none;
+}
+
+/*Стиль элементов в навигации*/
+.li-style {
+    text-decoration: none;
+    color: inherit;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*Стиль элементов в навигации при наведении*/
+.li-style:hover {
+    color: #ff6743;
+    transition: 0.5s;
+}
+
+/*Стиль элементов в навигации при нажатии */
+.li-style:active {
+    color: #007188;
+}
+
+/*Позиция кнопки "Вход"*/
+.li-position-header {
+    margin-left: 130px;
+}
+
+
+
+/*Первая страница*/
+.first-page {
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.text-position-on-first-page {
+    margin-left: 200px;
+}
+
+/*Справочная литература */
+.reference-literature {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+/*Текст на первой странице*/
+.what-is-reference-literature {
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+/*Фото на первой странице*/
+.stack-of-books {
+    max-width: 460px;
+    max-height: 310px;
+    margin-left: 65px;
+}
+
+/*Вторая страница*/
+.second-page {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/*Типы справочной литературы*/
+.types-of-reference-literature {
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 200px;
+    padding-bottom: 20px;
+}
+
+
+
+.info-dictionaries-first-page {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.photo-Dahl-dictionary {
+    max-width: 320px;
+    max-height: 270px;
+}
+
+.word-vocabulary {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 700;
+    color: inherit;
+    color: black;
+    text-decoration: none;
+}
+
+.what-is-a-dictionary {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+
+
+.info-about-the-encyclopedia {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.photo-encyclopedia {
+    max-width: 320px;
+    max-height: 270px;
+    margin-left: 60px;
+    padding-right: 67px;
+}
+
+.word-encyclopedia {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 700;
+    color: inherit;
+    color: black;
+    text-decoration: none;
+}
+
+.what-is-an-encyclopedia {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+
+
+.info-about-the-directory {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.photo-directory {
+    max-width: 320px;
+    max-height: 270px;
+    margin-left: 60px;
+    padding-right: 88px;
+}
+
+.word-guide {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 700;
+    color: inherit;
+    color: black;
+    text-decoration: none;
+}
+
+.what-is-a-directory {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.footer-test {
+    background-color: #bbbbbb;
+    padding-top: 150px;
+}
+
+
+
+
+.references-to-books {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: inherit;
+    color: #ff6743;
+}
+
+
+
+
+
+.title-explanatory-dictionaries {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.what-is-an-explanatory-dictionary {
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.text-information-about-explanatory-dictionaries {
+    margin-top: 100px;
+}
+
+.dahls-dictionary {
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.dictionary-names {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.information-about-dahls-explanatory-dictionary {
+    width: 510px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+.ozhegovs-dictionary {
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+.ushakovs-dictionary {
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+.survey-about-explanatory-dictionaries {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 100px;
+    border: none;
+    padding-bottom: 100px;
+}
+
+.question-about-explanatory-dictionaries {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.response-options {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.response-options-input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.the-button-for-sending-the-result {
+    width: 100px;
+}
