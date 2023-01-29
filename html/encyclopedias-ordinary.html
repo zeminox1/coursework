@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Энциклопедии</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <a href="./hero.html">
+                <img src="../img/logo.png" class="logo" alt="Logo">
+            </a>
+            <nav>
+                <ul class="ul-in-nav">
+                    <li class="li-in-nav"><a class="li-style" href="./hero.html">Главная</a></li>
+                    <li class="li-in-nav"><a class="li-style" href="./dictionary.html">Словари</a></li>
+                    <li class="li-in-nav"><a class="li-style" href="./encyclopedia.html">Энциклопедии</a></li>
+                    <li class="li-in-nav"><a class="li-style" href="./guide.html">Справочники</a></li>
+                    <li class="li-in-nav"><a class="li-style" href="./hero.html">Выбор пользователей</a></li>
+                    <li class="li-in-nav"><a class="li-style li-position-header" href="#">Вход</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="hidden-elements">Страница обычных энциклопедий </h1>
+        <section class="wraper">
+            <div class="display-flex">
+                <div class="text-information-about-explanatory-dictionaries">
+                    <h2 class="title-explanatory-dictionaries">Энциклопедии</h2>
+                    <p class="what-is-an-explanatory-dictionary">Энциклопедия, вид научного (адресованного специалистам)
+                        или научно-популярного (для
+                        широкого круга читателей) справочного издания. По специфике
+                        охвата материала энциклопедии подразделяются на универсальные (по всем отраслям знания и
+                        практической
+                        деятельности) и отраслевые (тематические), посвящённые определённой отрасли знания.
+                    </p>
+                </div>
+                <div>
+                    <img src="../img/Great-Russian-Encyclopedia.png" alt="Большая российская энциклопедия"
+                        class="great-russian-encyclopedia">
+                    <p class="dictionary-names">Большая российская энциклопедия</p>
+                    <p class="information-about-dahls-explanatory-dictionary">Большая российская энциклопедия — состоит
+                        из
+                        35 нумерованных томов и тома «Россия», и содержит более 80 тысяч статей. Энциклопедия
+                        издавалась с 2004 по 2017 годы научным издательством «Большая российская энциклопедия».
+                    </p>
+                    <span><a href="https://old.bigenc.ru/" class="references-to-books">Онлайн версия
+                            энциклопедии</a></span>
+                </div>
+            </div>
+            <div class="display-flex">
+                <div>
+                    <img src="../img/Great Soviet Encyclopedia.png" alt="Большая советская энциклопедия"
+                        class="great-soviet-encyclopedia">
+                    <p class="dictionary-names">Большая советская энциклопедия</p>
+                    <p class="information-about-dahls-explanatory-dictionary">Большая советская энциклопедия — наиболее
+                        известная и
+                        полная советская универсальная энциклопедия. Выпускалась с 1926 года (первый том первого
+                        издания) по 1990 год (последний ежегодник) издательством «Советская энциклопедия» (ныне —
+                        издательство «Большая российская энциклопедия»).</p>
+                    <span><a href="https://bse.slovaronline.com/" class="references-to-books">Онлайн версия
+                            энциклопедии</a></span>
+                </div>
+                <div>
+                    <img src="../img/Big_encyclopedia_dictionary.jpg" alt="Большой энциклопедический словарь"
+                        class="big-encyclopedia-dictionary">
+                    <p class="dictionary-names">Большой энциклопедический словарь</p>
+                    <p class="information-about-dahls-explanatory-dictionary">Большой энциклопедический словарь —
+                        универсальный, сначала двухтомный (1-е издание), позднее однотомный энциклопедический словарь,
+                        выпускавшийся издательством «Большая российская энциклопедия». Словарь включает около 80 000
+                        статей, в том числе около 20 000 биографий.</p>
+                    <span><a href="https://rus-big-enc-dict.slovaronline.com/" class="references-to-books">Онлайн
+                            версия
+                            энциклопедии</a></span>
+                </div>
+            </div>
+            <div>
+                <form action="//httpbin.org/post" method="post">
+                    <fieldset class="survey-about-explanatory-dictionaries">
+                        <legend class="question-about-explanatory-dictionaries">Какую энциклопедию вы
+                            порекомендуете
+                            другим?</legend>
+                        <label>
+                            <input type="radio" name="encyclopedias-ordinary" value="Great Russian Encyclopedia"
+                                class="response-options-input">
+                            <span class="response-options">Большая российская энциклопедия</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="encyclopedias-ordinary" value="Great Soviet Encyclopedia"
+                                class="response-options-input">
+                            <span class="response-options">Большая советская энциклопедия</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="encyclopedias-ordinary" value="Big encyclopedic dictionary"
+                                class="response-options-input">
+                            <span class="response-options">Большой энциклопедический словарь</span>
+                        </label>
+                        <button type="submit" class="the-button-for-sending-the-result">Отправить</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-test">
+    </footer>
+</body>

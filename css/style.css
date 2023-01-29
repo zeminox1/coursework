@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -232,9 +236,6 @@
     padding-top: 150px;
 }
 
-
-
-
 .references-to-books {
     margin-left: 10px;
     font-family: 'Roboto', sans-serif;
@@ -243,8 +244,30 @@
     color: #ff6743;
 }
 
+.choice-of-book-direction {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 700px;
+}
 
+.first-choice-book-direction {
+    color: inherit;
+    color: #ff6743;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
 
+.second-choice-of-book-direction {
+    color: inherit;
+    color: #ff6743;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
 
 
 .title-explanatory-dictionaries {
@@ -322,16 +345,79 @@
     padding-bottom: 20px;
 }
 
-.response-options {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+.abramov-linguist {
+    width: 200px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.aleksandrova-linguist {
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+.babenko-linguist {
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+.digital-circuitry {
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+.great-russian-encyclopedia {
+    width: 400px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+.great-soviet-encyclopedia {
+    width: 400px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+.big-encyclopedia-dictionary {
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+.response-options { 
+    font-size: 25px;
 }
 
 .response-options-input {
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 .the-button-for-sending-the-result {
+    margin-top: 25px;
     width: 100px;
 }
+
+.loader {
+    width: 300px;
+    height: 300px;
+    border: 15px solid #6ebeff;
+    border-bottom-color: #337AB7;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 3s linear infinite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лингвистические словари</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <a href="./hero.html">
+                <img src="../img/logo.png" class="logo" alt="Logo">
+            </a>
+            <nav>
+                <ul class="ul-in-nav">
+                    <li class="li-in-nav"><a class="li-style" href="./hero.html">Главная</a></li>
+                    <li class="li-in-nav"><a class="li-style" href="./dictionary.html">Словари</a></li>
+                    <li class="li-in-nav"><a class="li-style" href="./encyclopedia.html">Энциклопедии</a></li>
+                    <li class="li-in-nav"><a class="li-style" href="./guide.html">Справочники</a></li>
+                    <li class="li-in-nav"><a class="li-style" href="./hero.html">Выбор пользователей</a></li>
+                    <li class="li-in-nav"><a class="li-style li-position-header" href="#">Вход</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="hidden-elements">Страница лингвистических словарей</h1>
+        <section class="wraper">
+            <div class="display-flex">
+                <div class="text-information-about-explanatory-dictionaries">
+                    <h2 class="title-explanatory-dictionaries">Лингвистические словари</h2>
+                    <p class="what-is-an-explanatory-dictionary">Лингвистический словарь — это научное справочное
+                        издание, где в алфавитном порядке помещены слова и сведения о них: их значение, ударение,
+                        сочетаемость и т. д.</p>
+                </div>
+                <div>
+                    <img src="../img/abramovs-synonym-dictionary.png" alt="Словарь Абрамова" class="abramov-linguist">
+                    <p class="dictionary-names">Словарь синонимов Н. Абрамова</p>
+                    <p class="information-about-dahls-explanatory-dictionary">Словарь Н. Абрамова с исторической точки
+                        зрения является первым относительно полным сводом русских синонимов и до сих пор не потерял
+                        своей актуальности ни в отношении состава синонимических рядов, ни в отношении той концепции,
+                        которая была положена автором в основу словаря. Словарь предназначен как для специалистов, так и
+                        для широкого круга читателей.</p>
+                    <span><a href="https://gufo.me/dict/synonyms_abramov?letter=а" class="references-to-books">Онлайн
+                            версия
+                            словаря</a></span>
+                </div>
+            </div>
+            <div class="display-flex">
+                <div>
+                    <img src="../img/dictionary-of-synonyms-alexandrova.jpeg" alt="Словарь Александровой"
+                        class="aleksandrova-linguist">
+                    <p class="dictionary-names">Словарь синонимов З. Е. Александровой</p>
+                    <p class="information-about-dahls-explanatory-dictionary">Первое издание автора вышло в 1968 году. В
+                        последующие года словарь переиздавался с дополнениями и исправлениями. Словарь рассчитан на
+                        специалистов широкого профиля и в первую очередь на писателей, журналистов, переводчиков,
+                        лекторов, пропагандистов.</p>
+                    <span><a href="http://rus-yaz.niv.ru/doc/synonyms-aleksandrova/index.htm#192"
+                            class="references-to-books">Онлайн версия
+                            словаря</a></span>
+                </div>
+                <div>
+                    <img src="../img/dictionary-of-synonyms-babenko.webp" alt="Словарь Бабенко" class="babenko-linguist">
+                    <p class="dictionary-names">Словарь синонимов Л. Г. Бабенко</p>
+                    <p class="information-about-dahls-explanatory-dictionary">Большой толковый словарь синонимов русской
+                        речи - издание нового типа, отличающееся комплексным характером описания синонимических рядов
+                        слов. В нем впервые соединены принципы идеографических словарей (синонимические ряды
+                        располагаются по смысловым группам, то есть соотносятся с общим для них понятием), толковых,
+                        объяснительных словарей (дается толкование семантики, общей для всего синонимического ряда, а
+                        также семантики каждого отдельного слова - члена синонимического ряда) и учебных
+                        словарей-справочников (даются антонимы, близкие по смыслу фразеологизмы, указывается
+                        сочетаемость).</p>
+                    <span><a href="#" class="references-to-books">Онлайн версия отсутствует</a></span>
+                </div>
+            </div>
+            <div>
+                <form action="//httpbin.org/post" method="post">
+                    <fieldset class="survey-about-explanatory-dictionaries">
+                        <legend class="question-about-explanatory-dictionaries">Какой словарь синонимов вы считете
+                            лучшим?</legend>
+                        <label>
+                            <input type="radio" name="dictionaries-linguistic" value="Abramov's dictionary"
+                                class="response-options-input">
+                            <span class="response-options">Словарь синонимов Н. Абрамова</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="dictionaries-linguistic" value="Dictionary Alexandrova"
+                                class="response-options-input">
+                            <span class="response-options">Словарь синонимов З. Е. Александровой</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="dictionaries-linguistic" value="Dictionary Babenko"
+                                class="response-options-input">
+                            <span class="response-options">Словарь синонимов Л. Г. Бабенко</span>
+                        </label>
+                        <button type="submit" class="the-button-for-sending-the-result">Отправить</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-test">
+    </footer>
+</body>
