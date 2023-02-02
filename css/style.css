@@ -248,7 +248,7 @@ body {
     margin-top: 150px;
     display: flex;
     justify-content: space-evenly;
-    height: 700px;
+    height: 200px;
 }
 
 .first-choice-book-direction {
@@ -399,6 +399,21 @@ body {
     margin-top: 25px;
     width: 100px;
 }
+
+.information-on-the-user-selection-page {
+    font-size: 30px;
+    width: 900px;
+    padding-top: 50px;
+    margin-left: 150px;
+}
+
+.name-of-the-group-in-the-lists {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #ff6743;
+}
+
 
 .loader {
     width: 300px;
