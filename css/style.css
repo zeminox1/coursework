@@ -13,6 +13,7 @@ body {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 /*Скрытые элементы*/
@@ -38,13 +39,13 @@ body {
     display: flex;
     position: relative;
     z-index: 100;
-    background-color: #bbbbbb;
+    background-color: #50c878;
 }
 
 /*Лого*/
 .logo {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 /*Список в навигации*/
@@ -72,13 +73,13 @@ body {
 
 /*Стиль элементов в навигации при наведении*/
 .li-style:hover {
-    color: #ff6743;
+    color: #708090;
     transition: 0.5s;
 }
 
 /*Стиль элементов в навигации при нажатии */
 .li-style:active {
-    color: #007188;
+    color: #ebc7df;
 }
 
 /*Позиция кнопки "Вход"*/
@@ -110,7 +111,7 @@ body {
 .what-is-reference-literature {
     width: 500px;
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 50px;
 }
 
@@ -232,8 +233,8 @@ body {
 }
 
 .footer-test {
-    background-color: #bbbbbb;
-    padding-top: 150px;
+    background-color: #50c878;
+    height: 150px;
 }
 
 .references-to-books {
@@ -241,7 +242,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     color: inherit;
-    color: #ff6743;
+    color: #708090;
 }
 
 .choice-of-book-direction {
@@ -253,7 +254,7 @@ body {
 
 .first-choice-book-direction {
     color: inherit;
-    color: #ff6743;
+    color: black;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 70px;
@@ -262,7 +263,7 @@ body {
 
 .second-choice-of-book-direction {
     color: inherit;
-    color: #ff6743;
+    color: black;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 70px;
@@ -387,7 +388,7 @@ body {
     margin-left: 25px;
 }
 
-.response-options { 
+.response-options {
     font-size: 25px;
 }
 
@@ -414,6 +415,16 @@ body {
     color: #ff6743;
 }
 
+.ul-in-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.li-in-footer {
+    margin-top: 50px;
+    margin-left: 120px;
+    list-style: none;
+}
 
 .loader {
     width: 300px;
@@ -426,13 +437,37 @@ body {
     animation: rotation 3s linear infinite;
     margin-top: 50px;
     margin-bottom: 50px;
-  }
-  
-  @keyframes rotation {
+}
+
+@keyframes rotation {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  } 
+}
+
+.bread-crumbs {
+    font-size: 15px;
+}
+
+.empty-space {
+    height: 700px;
+}
+
+.our-contact-page {
+    height: 800px;
+}
+
+.qr-code-telegram {
+    max-width: 800px;
+    max-height: 700px;
+    border-radius: 20px;
+}
+
+.shelves-with-books-at-the-bottom-of-selection {
+    width: 800px;
+    height: 500px;
+}
